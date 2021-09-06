@@ -1,0 +1,106 @@
+body
+{
+    background-color: bisque;
+}
+
+div
+{
+    align-content: center;
+    text-align: center;
+}
+
+button 
+{
+    background-color: bisque;
+    color: brown;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+div#response
+{
+    color: mediumorchid;
+    font-size: 50;
+    /* padding-top: 20px; */
+    bottom: 5px;
+}
+
+div#quote
+{
+    color: grey;
+}
+
+div#story
+{
+    color: brown;
+    padding-top: 35px;
+}
+
+.message
+{
+    font-size: 25;
+}
+
+.alert
+{
+    display: none;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 96.8%;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    /* background-color: darkkhaki; */
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    /* background-color:rosybrown;
+    /* color: saddlebrown;
+    color: lightsteelblue; */
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    /* background-color: olive;
+    color: ghostwhite; */
+}
